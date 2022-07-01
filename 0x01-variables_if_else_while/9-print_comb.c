@@ -7,12 +7,14 @@
 */
 int main(void)
 {
-int snum = 48;
-do {
-putchar (snum);
+int snum;
+for (snum = 48; snum < 58; snum++){
+putchar(snum);
+if (snum != 57)
+{
 putchar (44);
 putchar (0);
-snum++;
-} while (snum <= 57);
+}
+}
 return (0);
 }
