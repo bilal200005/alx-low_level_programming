@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
 *main - Entry point
 *Discription: in this program i used for loop with ASCII table
@@ -7,15 +8,19 @@
 */
 int main(void)
 {
-int snum;
-for (snum = 48; snum < 58; snum++){
-putchar(snum);
-if (snum != 57)
-{
-putchar (44);
-putchar (0);
-}
-}
-putchar ('\n');
-return (0);
+	int i;
+
+	for (i = '0'; i <= '9' ; i++)
+	{
+		putchar(i);
+
+		if (i != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
+
+	putchar('\n');
+	return (0);
 }
