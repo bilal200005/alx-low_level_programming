@@ -15,8 +15,9 @@ for (k = '0'; k <= '9'; k++)
 {
 for (l = '0'; l <= '9'; l++)
 {
-if((k + l) > (i+j))
+if ((k + l) > (i + j))
 {
+putchar(' ');
 putchar(i);
 putchar(j);
 putchar(' ');
