@@ -23,8 +23,8 @@ if (i == '7' && j == '8' && k == '9')
 }
 else
 {
-putchar(' ');
 putchar(',');
+putchar(' ');
 }
 }
 }
