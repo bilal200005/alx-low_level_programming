@@ -22,6 +22,7 @@ if (n == '8' && m == '9')
 else
 {
 putchar(',');
+putchar(' ');
 }
 }
 }
