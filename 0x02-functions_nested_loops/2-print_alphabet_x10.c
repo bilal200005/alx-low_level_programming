@@ -16,6 +16,6 @@ _putchar(alp);
 alp++;
 }
 count++;
-}
 _putchar('\n');
+}
 }
