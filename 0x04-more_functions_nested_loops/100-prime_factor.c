@@ -16,5 +16,6 @@ printf("%d", count);
 num = num / count;
 }
 }
+printf("\n");
 return (0);
 }
