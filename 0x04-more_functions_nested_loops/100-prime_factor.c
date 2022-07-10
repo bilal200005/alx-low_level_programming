@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-long long num = 612852475143;
+long num = 612852475143;
 int count;
 for (count = 2; num > 1; count++)
 {
