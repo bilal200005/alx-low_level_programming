@@ -12,10 +12,9 @@ for (count = 2; num > 1; count++)
 {
 while (num % count == 0)
 {
-printf("%d", count);
+printf("%d\n", count);
 num = num / count;
 }
 }
-printf("\n");
 return (0);
 }
