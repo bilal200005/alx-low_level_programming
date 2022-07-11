@@ -1,6 +1,6 @@
 #ifndef FILE_MAIN
 #define FILE_MAIN
-
+int _putchar(char c);
 void rev_string(char *s);
 
 void reset_to_98(int *n);
