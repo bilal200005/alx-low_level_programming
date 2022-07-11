@@ -1,0 +1,1 @@
+in this repo i have tried to recreate most of the C functions 
